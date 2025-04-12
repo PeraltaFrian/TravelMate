@@ -1,0 +1,26 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eafaf1;
+  color: #2e7d32;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+  min-height: 90vh; 
+}
+
+.main-content {
+  flex: 1; 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+}
+
